@@ -83,6 +83,10 @@ section.maincontent h2 {
     font-weight: 700;
     font-size: 2.5rem;
 }
+
+.central.content img {
+    border-bottom: 4px solid white;
+}
 /* /sitemain */
 
 /* sitefooter */
