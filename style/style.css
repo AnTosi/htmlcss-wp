@@ -26,7 +26,6 @@ section .content {
 
 .jumbotron {
     margin-top: 10px;
-    margin-bottom: 50px;
 }
 section .central {
     margin-left: 1.5%;
@@ -51,12 +50,12 @@ header img {
 }
 
 nav {
-   padding-top: 2.5rem;
-   padding-bottom: 2.5rem;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
 }
 nav>a {
     text-decoration: none;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
 }
 /* siteheader */
 
