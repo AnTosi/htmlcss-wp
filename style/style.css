@@ -65,14 +65,19 @@ main > .jumbotron {
 .jumbotron>img {
     border-radius: 10px;
     width: 100%;
+    filter: brightness(0.8);
 }
 .jumbotron>div.didascalia {
     position:absolute;
-    left: 1rem;
-    bottom: 2rem;
+    left: 3rem;
+    bottom: 4rem;
+    width: 50%;
 }
 
-.didascalia>.title
+.jumbotron>.didascalia>h4.title {
+    font-weight: 400;
+    font-size: 1.5rem;    
+}
 /* siteJUMBOTRON */
 
 /* debug */
