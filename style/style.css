@@ -63,7 +63,7 @@ main > .jumbotron {
 }
 
 .jumbotron>img {
-    border-radius: 5px;
+    border-radius: 10px;
     width: 100%;
 }
 .jumbotron>div.didascalia {
