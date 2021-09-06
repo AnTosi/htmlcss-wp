@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .clearfix::after {
@@ -10,6 +11,7 @@
     clear: both;
 }
 
+/* struttura */
 .container {
     width: 80%;
     height: fit-content;
@@ -36,6 +38,23 @@ section .left, section .right {
     width: 20%;
 }
 
+/* /struttura */
+
+/* siteheader */
+header img {
+    height: 70px;
+}
+
+nav {
+   padding-top: 2.5rem;
+   padding-bottom: 2.5rem;
+}
+nav>a {
+    text-decoration: none;
+    color:grey;
+    margin-right: 1rem;
+}
+/* siteheader */
 
 /* debug */
 .debug header {
