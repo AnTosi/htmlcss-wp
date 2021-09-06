@@ -26,7 +26,7 @@ section .content {
 
 .jumbotron {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 section .central {
     margin-left: 1%;
@@ -51,7 +51,6 @@ nav {
 }
 nav>a {
     text-decoration: none;
-    color:grey;
     margin-right: 1rem;
 }
 /* siteheader */
@@ -79,6 +78,19 @@ main > .jumbotron {
     font-size: 1.5rem;    
 }
 /* siteJUMBOTRON */
+
+/* sitecontent */
+
+/* /sitecontent */
+
+/* colours,font etc */
+.greytext {
+    color: grey;
+}
+.maincontent span {
+    font-size: 0.75rem;
+}
+/* /colours */
 
 /* debug */
 .debug header {
