@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+}
+
+section .content {
+    float:left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.jumbotron {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+section .central {
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 58%;
+}
+
+section .left, section .right {
+    width: 20%;
+}
+
+
+/* debug */
+.debug header {
+    height: 150px;
+    background-color: aquamarine;
+}
+
+.debug .jumbotron {
+    height:400px;
+    background-color: yellow;
+}
+
+.debug section>.content {
+    height: 400px;  
+}
+
+.debug footer {
+    height: 100px;
+    background-color: yellowgreen;
+}
+
+.debug .left, .debug .side {
+    background-color: silver;
+}
+
+.debug .central {
+    background-color: skyblue;
+}
+
+.debug #contenttitle {
+    height: 100px;
+    background-color: pink;
+}
+
+/* /debug */
