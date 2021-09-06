@@ -56,6 +56,23 @@ nav>a {
 }
 /* siteheader */
 
+/* siteJUMBOTRON */
+main > .jumbotron {
+    position: relative;
+    color: white;
+}
+
+.jumbotron>img {
+    border-radius: 5px;
+    width: 100%;
+}
+.jumbotron>div.didascalia {
+    position:absolute;
+    left: 1rem;
+    bottom: 2rem;
+}
+/* siteJUMBOTRON */
+
 /* debug */
 .debug header {
     height: 150px;
