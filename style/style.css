@@ -34,7 +34,7 @@ section .central {
     width: 58%;
 }
 
-section .left, section .right {
+section .side {
     width: 20%;
 }
 
@@ -55,13 +55,13 @@ nav>a {
 }
 /* siteheader */
 
-/* siteJUMBOTRON */
+/* sitemain */
 main > .jumbotron {
     position: relative;
     color: white;
 }
 
-.jumbotron>img {
+main img {
     border-radius: 10px;
     width: 100%;
     filter: brightness(0.8);
@@ -77,20 +77,25 @@ main > .jumbotron {
     font-weight: 400;
     font-size: 1.5rem;    
 }
-/* siteJUMBOTRON */
+/* /sitemain */
 
-/* sitecontent */
-
-/* /sitecontent */
-
-/* colours,font etc */
+/* colours,font */
 .greytext {
     color: grey;
 }
 .maincontent span {
     font-size: 0.75rem;
 }
-/* /colours */
+
+.maincontent h6 {
+    font-size: 0.75rem;
+    font-weight: 400; 
+}
+
+section.maincontent > .contenttitle {
+    margin-bottom: 2rem;
+}
+/* /colours,font */
 
 /* debug */
 .debug header {
